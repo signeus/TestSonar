@@ -9,7 +9,7 @@ namespace Cyclomatic
     class StartRace
     {
 
-        public int Resultado(int? primerNumero, int segundoNumero)
+        public int Resultado_15(int? primerNumero, int segundoNumero)
         {
             try
             {
@@ -31,6 +31,32 @@ namespace Cyclomatic
             {
                 return e.GetHashCode();
             }
+        }
+        public int Resultado_7(int? primerNumero, int segundoNumero)
+        {
+            int result = 0;
+            try
+            {
+                if (primerNumero.Value == 1)
+                    result = primerNumero.Value + segundoNumero;
+                if (primerNumero.Value == 12)
+                    result =  primerNumero.Value + segundoNumero;
+                if (primerNumero.Value == 2)
+                    result =  primerNumero.Value + segundoNumero;
+                if (primerNumero.Value == 3)
+                    result =  primerNumero.Value + segundoNumero;
+                if (primerNumero.Value == 4)
+                    result =  primerNumero.Value + segundoNumero;
+                if (primerNumero.Value == 5)
+                    result =  primerNumero.Value + segundoNumero;
+                result =  0;
+            }
+            catch (Exception e)
+            {
+                result =  e.GetHashCode();
+            }
+
+            return result;
         }
     }
 }
