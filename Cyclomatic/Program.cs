@@ -11,7 +11,7 @@ namespace Cyclomatic
         static void Main(string[] args)
         {
             StartRace race = new StartRace();
-            Console.WriteLine(race.Resultado(1,2));
+            //Console.WriteLine(race.Resultado(1,2));
         }
     }
 }
