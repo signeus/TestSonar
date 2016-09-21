@@ -1,2 +1,7 @@
 c:\users\user\documents\visual studio 2015\Projects\Cyclomatic\Cyclomatic\bin\Debug\Cyclomatic.exe.config
 C:\Virtual\Div\kev\Cyclomatic\Cyclomatic\bin\Debug\Cyclomatic.exe.config
+C:\Virtual\Div\kev\Cyclomatic\Cyclomatic\bin\Debug\Cyclomatic.exe
+C:\Virtual\Div\kev\Cyclomatic\Cyclomatic\bin\Debug\Cyclomatic.pdb
+C:\Virtual\Div\kev\Cyclomatic\Cyclomatic\obj\Debug\Cyclomatic.csprojResolveAssemblyReference.cache
+C:\Virtual\Div\kev\Cyclomatic\Cyclomatic\obj\Debug\Cyclomatic.exe
+C:\Virtual\Div\kev\Cyclomatic\Cyclomatic\obj\Debug\Cyclomatic.pdb
