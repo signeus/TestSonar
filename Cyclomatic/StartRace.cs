@@ -58,5 +58,46 @@ namespace Cyclomatic
 
             return result;
         }
+
+        public int Resultado_4(int? primerNumero, int segundoNumero)
+        {
+            try
+            {
+                return primerNumero.Value + segundoNumero;
+            }
+            catch (Exception e)
+            {
+                return e.GetHashCode();
+            }
+        }
+
+        public int Resultado_3(int? primerNumero, int segundoNumero)
+        {
+            int result = 0;
+            try
+            {
+                result = primerNumero.Value + segundoNumero;
+                return result;
+            }
+            catch (Exception e)
+            {
+                result = e.GetHashCode();
+            }
+            return result;
+        }
+
+        public int Resultado_2(int? primerNumero, int segundoNumero)
+        {
+            int result = 0;
+            try
+            {
+                result = primerNumero.Value + segundoNumero;
+            }
+            catch (Exception e)
+            {
+                result = e.GetHashCode();
+            }
+            return result;
+        }
     }
 }
